@@ -2,14 +2,14 @@ import { Text } from "@react-navigation/elements";
 import { StaticScreenProps } from "@react-navigation/native";
 import { useEffect, useState } from "react";
 import { Button, Modal, Pressable, StyleSheet, View } from "react-native";
-import { fetchData, getAllConsents } from "../utils/api";
-import { Consent, Patient, PatientConsent } from "../utils/dto";
+import { fetchData, getAllConsents } from "../../utils/api";
+import { Consent, Patient, PatientConsent } from "../../utils/dto";
 
 type Props = StaticScreenProps<{
   patientId: number;
 }>;
 
-export function Profile({ route }: Props) {
+export function PatientProfile({ route }: Props) {
   const [showConsentForm, setShowConsentForm] = useState(false);
 
   const [patient, setPatient] = useState<Patient | null>(null);

@@ -9,7 +9,7 @@ import { Image } from "react-native";
 import bell from "../assets/bell.png";
 import newspaper from "../assets/newspaper.png";
 import { Home } from "./screens/Home";
-import { Profile } from "./screens/Profile";
+import { PatientProfile } from "./screens/PatientProfile";
 import { Settings } from "./screens/Settings";
 import { Updates } from "./screens/Updates";
 import { NotFound } from "./screens/NotFound";
@@ -65,7 +65,7 @@ const RootStack = createNativeStackNavigator({
       },
     },
     Profile: {
-      screen: Profile,
+      screen: PatientProfile,
       linking: {
         path: ":user(@[a-zA-Z0-9-_]+)",
         parse: {

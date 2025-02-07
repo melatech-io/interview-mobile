@@ -1,4 +1,3 @@
-// fakeApi.js
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Consent, Patient } from "./dto";
 
@@ -9,6 +8,10 @@ type StorageKey = "@patient" | "@consent" | "@user" | "@patientConsent";
 function delay(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
+
+// NOTE: we are simulating the api calls with async storage
+// A specific key is used to store each piece of data
+// You need to use the same key to fetch the data or update it
 
 export async function fetchData(path: StorageKey, id: number) {
   // Simulate network delay (e.g., 500ms)

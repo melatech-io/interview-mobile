@@ -3,8 +3,8 @@ import { Asset } from "expo-asset";
 import * as SplashScreen from "expo-splash-screen";
 import * as React from "react";
 import { Navigation } from "./navigation";
-import { Consent, Patient } from "./navigation/utils/dto";
-import { saveMultiple } from "./navigation/utils/api";
+import { saveMultiple } from "./utils/api";
+import { Consent, Patient } from "./utils/dto";
 
 Asset.loadAsync([
   ...NavigationAssets,

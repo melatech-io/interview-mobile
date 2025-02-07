@@ -1,8 +1,7 @@
 import { Text } from "@react-navigation/elements";
 import { useNavigation } from "@react-navigation/native";
-import { useEffect, useState } from "react";
 import { FlatList, Pressable, StyleSheet, View } from "react-native";
-import { getAllPatients } from "../utils/api";
+import { useGetAllPatients } from "../../utils/hooks";
 
 type Patient = {
   id: number;
@@ -17,20 +16,7 @@ type RenderItemProps = {
 
 export function Home() {
   const navigation = useNavigation();
-  const [patients, setPatients] = useState<Patient[]>([]);
-
-  async function loadPatients() {
-    try {
-      const patients = await getAllPatients();
-      setPatients(patients);
-    } catch (error) {
-      console.error("Error loading patients:", error);
-    }
-  }
-
-  useEffect(() => {
-    loadPatients();
-  }, []);
+  const { patients } = useGetAllPatients();
 
   return (
     <View style={styles.container}>
