@@ -25,8 +25,8 @@
 # Goal
 
 The goal of this exercise is to test your knowledge of the Typescript **type system**, have an idea of your understanding of the **native code's structure** (iOS and android directories).
-And most importantly your sense of **system design**
-This exercise is meant to test your **problem solving** abilities, more than your knowledge of a specific library
+And most importantly your sense of **system design**.
+This exercise is meant to test your **problem solving** abilities, more than your knowledge of a specific library.
 
 # Task
 
@@ -47,7 +47,7 @@ This exercise is meant to test your **problem solving** abilities, more than you
     - [-] Add the option to edit the consents' agreements
 
 ---
-Most of the components and functionalities are already implemented, it is up to you to refactor and adjust the code to meet up the requirements
+Most of the components and functionalities are already implemented, it is up to you to refactor and adjust the code to meet up the requirements.
 With the current implementation, a reload of the app is needed on first launch in order to see the data. This doesn't need to be fixed
 
 ## Resources
