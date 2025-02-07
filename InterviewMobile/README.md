@@ -29,11 +29,11 @@ And most importantly your sense of **system design**
 
 # Task
 
-- There has been an error introduced that doesn't make the app run
+- There has been an error introduced prevents the app from running
   - [-] Fix the issue preferably without using expo CNG, to make the app run
-  - [-] Expo is clever and can make the app run again without fixing the issue in the native code. I want you to fix it regardless
+  - [-] Expo is clever and can make the app run again without fixing the issue in the native code. We want you to fix it regardless
 
-- You are task with adding types to the `api.ts` file, such that the data passed in and the data returned is typed correctly
+- You are tasked with adding types to the `api.ts` file, such that the data passed in and the data returned is typed correctly
 - You should implement the logic for saving the consents
 
 - Profile screen
