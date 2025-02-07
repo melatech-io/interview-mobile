@@ -140,7 +140,6 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-/* Mark */
 
 /* Begin PBXNativeTarget section */
 		13B07F861A680F5B00A75B9A /* InterviewMobile */ = {
@@ -362,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -394,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
