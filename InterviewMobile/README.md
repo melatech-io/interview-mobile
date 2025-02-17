@@ -26,11 +26,12 @@
 
 The goal of this exercise is to test your knowledge of the Typescript **type system**, have an idea of your understanding of the **native code's structure** (iOS and android directories).  
 And most importantly your sense of **system design**.  
-This exercise is meant to test your **problem solving** abilities, more than your knowledge of a specific library.
+This exercise is meant to test your **problem solving** abilities, more than your knowledge of a specific library.  
+Think about code **structure** and **reusability** and make any changes you deem necessary.
 
 # Task
 
-- There has been an error introduced prevents the app from running
+- There has been an error introduced which prevents the app from running
   - [-] Fix the issue preferably without using expo CNG, to make the app run
   - [-] Expo is clever and can make the app run again without fixing the issue in the native code. We want you to fix it regardless
 
